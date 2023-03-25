@@ -34,14 +34,6 @@ services:
    networks:
      - net
    logging: *logging
-#   deploy:
-#     resources:
-#       limits:
-#         cpus:  "${DOCKER_WEB_CPUS:-0}"
-#         memory: "${DOCKER_WEB_MEMORY:-0}"
 
 networks:
  net:
-
-#volumes:
-# redis-data:
